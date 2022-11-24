@@ -88,6 +88,10 @@ body{
 	grid-area: main;
 	width: 100%;
 	
+	
+}
+.mainexpe {
+	padding-bottom: 18%;
 }
 
 
@@ -103,7 +107,8 @@ font-size: 13px;
 h1 {
 padding-bottom: 5%;	
 font-size: 45px;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Inter', sans-serif;
+margin: 2%;
 
 }
 
@@ -111,6 +116,7 @@ p {
 font-size: 23px;	
 line-height: 1.6;
 font-family: 'Inter', sans-serif;
+margin: 2%;
 }
 
 .vinos {
@@ -249,6 +255,7 @@ h2{
 	color: rgb(249, 247, 247);
 	border: none;
 	border-radius: 4px;
+	cursor: pointer;
 	
 
 }
@@ -261,19 +268,23 @@ h2{
 
 .las-experiencias h4 {
 	padding-top: 15%;
-	font-size: 25px;
+	font-size: 30px;
 	font-family: 'Abril Fatface', cursive;
 	font-weight: lighter;
-	text-align: center;
+	text-align: justify;
+	margin: 5%;
 	
 }
 	
 	
 .las-experiencias p {
-	font-size: 18px;
+	font-size: 20px;
 	padding-top: 2%;
 	font-family: 'Inter', sans-serif;
 	margin: 4%;
+	text-align: justify;
+	padding-bottom: 5%;
+	margin: 5%;
 }
 
 
@@ -284,6 +295,8 @@ h2{
  
   .elementoCarousel img {
 	width: 100%;
+	padding-bottom: 5%;
+	padding-top: 5%;
   }
   
   
@@ -291,13 +304,14 @@ h2{
 	cursor: pointer;
 	position: absolute;
 	width: auto;
-	color: rgb(237, 14, 14);
+	color: rgb(252, 250, 250);
 	font-weight:lighter;
-	font-size: 30px;
+	font-size: 40px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 	padding: 12px;
+	top: 132%;
 	
   }
   
@@ -314,18 +328,17 @@ h2{
   
 
   .prev:hover, .next:hover {
-	background-color: rgba(81, 41, 51, 0.8);
-	padding: 5px;
+	background-color: rgba(129, 91, 100, 0.8);
+	padding: 7px;
+	
   }
   
   
   
-  
-  
   .numbertext {
-	color: #d20606;
-	padding: 1%;
-	font-size: 15px;
+	color: #fdfafa;
+	padding: 2%;
+	font-size: 18px;
 	position: absolute;
 	
   }
@@ -451,19 +464,56 @@ h2{
 	padding: 20px;
 }
 
+.mainexpe {
+	
+	width: 100%;
+ 	
+ 	height: 100%;
+	padding-bottom: 10%;
+ 	
 
+}
 .las-experiencias h4 {
 	font-size: 30px;
 	padding-top: 8%;
+	text-align: justify;
+	margin: 6%;
 }
 
 .las-experiencias p {
-	text-align: center;
+	font-size: 22px;
+	text-align: justify;
+	margin: 6%;
 }
 
+.las-experiencias img {
+	display: none;
+}
 
 .elementoCarousel img {
 	padding: 5%;
+	
+  }
+
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	width: auto;
+	color: rgb(6, 6, 6);
+	font-weight:lighter;
+	font-size: 40px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	padding: 10px;
+	top: 159%;
+  }
+  
+  .numbertext {
+	color: #fdfafa;
+	padding: 7%;
+	font-size: 20px;
+	position: absolute;
 	
   }
 
@@ -605,12 +655,54 @@ h2{
 
 
 .formulario {
-	width: 50%;
+	width: 70%;
+	padding: 30px;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 120px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 12px 4px rgba(0, 0, 0, 0.3);
+	font-size: 15px;
+	color: rgb(160, 129, 134);
 }
-	
+
+h2{
+	padding-bottom: 4%;
+}
+
 .info-formulario {
-	padding: 12px;
+	
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	border: none;
+	margin-top: 3px;
 }
+
+.mensaje {
+	width: 100%;
+	padding: 25px;
+	border-radius: 4px;
+	margin-bottom: 1px;
+	border: none;
+	margin-top: 3px;
+
+}
+
+.boton {
+	width: 100%;
+	background-color:rgb(160, 129, 134);
+	padding: 12px ;
+	margin-top: 6%;
+	color: rgb(249, 247, 247);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	
+
+}
+
 
 
 .mainexpe {
@@ -618,44 +710,39 @@ h2{
 	width: 100%;
  	padding-top: 8%;
  	height: 100%;
- 	display:grid;
- 	grid-template-columns: 500px 1fr  ;
-	gap: 70px;
+	padding-bottom: 10%;
+ 	
 
 }
 
-.las-experiencias {
-	grid-column: 1/2;
-}
+
 
 .las-experiencias h4 {
 	padding-top: 3%;
-	font-size: 35px;
+	font-size: 40px;
 	font-family: 'Abril Fatface', cursive;
 	font-weight: lighter;
 	text-align: left;
-	padding-left: 10%;
-	
-	
+	margin: 5%;
+		
 }
+
 	
 	
 .las-experiencias p {
-	font-size: 18px;
-	padding-top: 6%;
+	font-size: 21px;
+	padding-top: 0;
 	font-family: 'Inter', sans-serif;
 	margin: 0;
 	text-align: left;
-	padding-left: 10%;
+	margin: 5%;
 }
 
-.slider {
-	grid-column: 2/3;
-}
+
 
 .elementoCarousel img {
-	width: 90%;
-	padding-right: 2px;
+	width: 100%;
+	
   }
 
   
@@ -663,14 +750,15 @@ h2{
 	cursor: pointer;
 	position: absolute;
 	width: auto;
-	color: rgb(245, 10, 10);
+	color: rgb(5, 5, 5);
 	font-weight:lighter;
 	font-size: 30px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 	padding: 12px;
-	top:169% ;
+	top:150% ;
+	
 	
 	
   }
@@ -679,6 +767,14 @@ h2{
   }
   .next {
 	right: 0%;
+  }
+  
+  .numbertext {
+	color: #f8f5f5;
+	padding: 7%;
+	font-size: 20px;
+	position: absolute;
+	
   }
  
   .dot {
@@ -691,8 +787,11 @@ h2{
 	transition: background-color 0.6s ease;
 	
 	
+	
+	
   }
-
+  
+  
 }
 @media (min-width: 1200px) {
 	.grid_container{
@@ -703,4 +802,71 @@ h2{
 		 400px 		auto 	200px;
 
 	}
+	.quienes-somos {
+		text-align: center;
+		text-align: justify;
+		margin: 5%;
+		
+		
+		
+		}
+		
+		h1 {
+		padding-bottom: 4%;	
+		font-size: 35px;
+		font-family: 'Inter', sans-serif;
+		margin: 2%;
+		font-weight:400;
+		}
+		
+	.quienes-somos p {
+		font-size: 20px;
+	}
+		
+		
+	
+	.mainexpe {
+		
+	
+		 padding-top: 1%;
+	}
+	
+	.las-experiencias h4 {
+		padding-top: 2%;
+		font-size: 35px;
+		font-family: 'Abril Fatface', cursive;
+		font-weight: lighter;
+		text-align: left;
+		margin: 5%;
+			
+	}
+	
+		
+		
+	.las-experiencias p {
+		font-size: 20px;
+		padding-top: 0;
+		font-family: 'Inter', sans-serif;
+		text-align: justify;
+		margin: 5%;
+	}
+	
+	.elementoCarousel img {
+		
+		padding-top: 0%;
+	  }
+	
+	.prev, .next {
+		
+		top:255% ;
+	}
+	
+	.numbertext {
+		
+		padding-top: 2%;
+		font-size: 15px;
+		
+	  }
+	 
 }
+
